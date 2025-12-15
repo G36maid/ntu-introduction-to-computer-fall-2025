@@ -6,11 +6,11 @@
 
 ## Code/Style Guidelines
 - **Format**: GitHub Flavored Markdown (GFM). Use headers, lists, and code blocks consistently.
-- **Naming**: Files in `notes/` as `XX-topic.md`. Resources in `notes/resources/`.
+- **Naming**: Files in `notes/Course/` or `notes/Research/` as `XX-topic.md`. Resources in `notes/resources/`.
 - **Links**: Use relative paths. Ensure `README.md` indexes all new notes.
 - **Commits**: Use Conventional Commits (e.g., `docs: add chapter 5 notes`).
 
 ## Workflow
-- **Conversion**: Process `course-materials/` (PDF/PPTX) into `notes/`. Extract text/images/links.
+- **Conversion**: Process `course-materials/` (PDF/PPTX) into `notes/Course/` or `notes/Research/`. Extract text/images/links.
 - **Validation**: Verify converted content against source. Document errors/missing info.
-- **Structure**: Keep original files in `course-materials/`. Do not duplicate binary assets unnecessarily.
+- **Structure**: Keep original files in `course-materials/` organized by type (`Course/` vs `Research/`). Do not duplicate binary assets unnecessarily.
